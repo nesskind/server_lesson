@@ -1,0 +1,300 @@
+575  echo '-----------------' >> README.md
+  576  cat README.md
+  577  vi ファイル名
+  578  vi ファイル名
+  579  vi ファイル名
+  580  cd ~/
+  581  cd vagrant/server_lesson
+  582  vi README.md
+  583  tree -a
+  584  cd ~/
+  585  cd vagr
+  586  cd vagrant
+  587  tree -a
+  588  ls
+  589  tree -d
+  590  tree -a
+  591  tree -f
+  592  tree ./vagrant
+  593  tree .
+  594  tree .
+  595  git rem
+  596  git remote add server_lesson
+  597  git remote add server_lesson /Users/fukushimamegumitama/vagrant/server_lesson
+  598  git add server_lesson
+  599  git add server_lesson/
+  600  git commit -m 'Linux課題1'
+  601  git push origin server_lesson
+  602  git push server_lesson
+  603  git push server_lesson linux_task_1
+  604  git push server_lesson master
+  605  git pull origin develop
+  606  git pull server_lesson develop
+  607  git add server_lesson/
+  608  git commit -m 'Linux課題1'
+  609  cd ~/
+  610  ls
+  611  cd vagrant
+  612  ls
+  613  cd server_lesson/
+  614  git init
+  615  git add server_lesson
+  616  git add server_lesson/
+  617  cd -
+  618  git add server_lesson
+  619  git commit -m 'Linux課題1終了'
+  620  git log
+  621  git push origin master
+  622  git push server_lesson master
+  623  $ git config --get-all core.bare
+  624  git config --get-all core.bare
+  625  git config --bool core.bare true
+  626  git config --get-all core.bare
+  627  git push server_lesson master
+  628  git remote -v
+  629  git
+  630  git remote -v
+  631  git clone /Users/fukushimamegumitama/vagrant/server_lesson
+  632  git clone /Users/fukushimamegumitama/vagrant/server_lesson/
+  633  git remote add origin /Users/fukushimamegumitama/vagrant/server_lesson
+  634  git log
+  635  git remote -v
+  636  $ git push origin master
+  637  git push origin master
+  638  $ git config --get-all core.bare
+  639  git config --get-all core.bare
+  640  git fetch
+  641  git push origin master
+  642  git merge origin/master
+  643  git reset HEAD server_lesson
+  644  git revert commit 2a8567fcdaaf3b8f77509f28576eabadcbf646a0
+  645  git status
+  646  git status
+  647  git log
+  648  git config --edit
+  649  ls
+  650  ls -la
+  651  cd server_lesson
+  652  ls -la
+  653  git remote add origin https://github.com/nesskind/server_lesson.git
+  654  git config --edit
+  655  git push origin main
+  656  git branch
+  657  git branch main
+  658  git branch master
+  659  git branch --help
+  660  git branch -M main
+  661  git branch -M master
+  662  git checkout -b
+  663  git checkout -b main
+  664  git branch
+  665  git push origin main
+  666  git branch -M main
+  667  git config edit
+  668  git config --edit
+  669  git log
+  670  cd ../
+  671  git log
+  672  git cofig --edit
+  673  git config --edit
+  674  git remote add origin https://github.com/nesskind/server_lesson.git
+  675  git remote set-url https://github.com/nesskind/server_lesson.git
+  676  git remote set-url origin https://github.com/nesskind/server_lesson.git
+  677  git push origin master
+  678  ls
+  679  cd server_lesson
+  680  ls
+  681  git init
+  682  git add server_lesson
+  683  git add server_lesson/
+  684  git add -A
+  685  git commit -m 'Linux課題1終了'
+  686  git remote add origin https://github.com/nesskind/server_lesson.git
+  687  git config --edit
+  688  git push origin master
+  689  git remote set-url https://github.com/nesskind/server_lesson.git
+  690  git remote set-url origin https://github.com/nesskind/server_lesson.git
+  691  git push origin master
+  692  git log
+  693  git push origin :branch-name
+  694  git branch
+  695  git push origin main
+  696  ls
+  697  cd linux_practice2
+  698  mkdir documents 
+  699  ls
+  700  for count in `seq -f "%03g" 50`;do :> gizumo01.md; done
+  701  ls
+  702  ls
+  703  cd documents
+  704  ls
+  705  touch gizumo_{01..50}.md
+  706  ls
+  707  $ for count in `seq -f "%03g" 100`;do :> lesson_$count.js; done
+  708  $ for count in `seq -f "%03g" 100`;do :> lesson_$count.js; done
+  709  for count in `seq -f "%03g" 50`;do :> gizumo_$count.md; done
+  710  ls
+  711  cd ..
+  712  ls
+  713  mkdir trash
+  714  cd trash
+  715  ls
+  716  ls
+  717  cd ..
+  718  ls
+  719  cd documents
+  720  ls
+  721  mv *gizumo_{20..40} trash/
+  722  mv *gizumo_[20..40] trash/
+  723  cd ~/
+  724  cd vagrant
+  725  ls
+  726  mv *gizumo_[20..40] trash/
+  727  ls
+  728  cd server_lesson
+  729  ls
+  730  mv *gizumo_[20..40] trash/
+  731  mv *gizumo_[20-40] trash/
+  732  mv*gizumo_[20-40] trash/
+  733  mv*.gizumo_[20-40] trash/
+  734  mv *.gizumo_[20-40] trash/
+  735  mv *gizumo_[20-40] trash/
+  736  mv */gizumo_[20-40] trash/
+  737  mv ./gizumo_[20-40] ./trash
+  738  mv ./gizumo_[20-40].md ./trash
+  739  cd ~/
+  740  cd vagrant
+  741  ls
+  742  cd server_lesson/
+  743  ls
+  744  cd linux_practice2
+  745  ls
+  746  cd documents
+  747  ls
+  748  ls
+  749  touch gizumo{01..50}.md
+  750  ls
+  751  rm gizumo{01..50}.md
+  752  ls
+  753  touch gizumo[01-50].md
+  754  ls
+  755  rm gizumo[01-50].md
+  756  ls
+  757  touch gizumo[01~50].md
+  758  ls
+  759  rm gizumo[01~50].md
+  760  ls
+  761  rm gizumo{0..50}.md
+  762  touch gizumo{0..50}.md
+  763  ls
+  764  rm gizumo{0..50}.md
+  765  ls
+  766  touch gizumo0{1..9}.md
+  767  ls
+  768  touch gizumo{10..50}.md
+  769  ls
+  770  cd ../
+  771  ls
+  772  mv *./gizumo[20-40].md
+  773  mv ./gizumo[20-40].md
+  774  mv gizumo{20..40}.md ./trash
+  775  ls
+  776  mv gizumo{20..40}.md trash
+  777  mv ./gizumo{20..40}.md ./trash
+  778  mv ./gizumo{20..40}.md ./linux_practice2/trash
+  779  mv -f./gizumo{20..40}.md ./trash
+  780  mv -f ./gizumo{20..40}.md ./trash
+  781  cd ../
+  782  mv ./gizumo{20..40}.md ./trash
+  783  mv ./gizumo{20..40}.md ./trash
+  784  mv gizumo{20..40}.md trash
+  785  mv gizumo{20..40}.md ./trash
+  786  ls
+  787  cd linux_practice2
+  788  ls
+  789  mv gizumo{20..40}.md ./trash
+  790  cd documents
+  791  ls
+  792  mv gizumo{20..40}.md ./trash
+  793  cd ../
+  794  cd trash
+  795  ls
+  796  mv gizumo{20..40}.md ./trash
+  797  cd ../
+  798  ls
+  799  mv gizumo{20..40}.md ./trash
+  800  mv ./gizumo{20..40}.md ./trash
+  801  mv ./gizumo[20..40].md ./trash
+  802  mv ./gizumo[20-40].md ./trash
+  803  mv gizumo[20-40].md ./trash
+  804  mv gizumo[20-40].md trash
+  805  mv gizumo{20..40}.md trash/.
+  806  mv gizumo{20..40}.md trash
+  807  mv gizumo{20..40}.md trash/.
+  808  mv *.gizumo{20..40}.md trash/.
+  809  mv gizumo{20..40}.md /trash
+  810  mv /gizumo{20..40}.md /trash
+  811  mv ./gizumo{20..40}.md /trash
+  812  mv .gizumo{20..40}.md .trash
+  813  mv *gizumo{20..40}.md .trash
+  814  mv *.gizumo{20..40}.md .trash
+  815  mv gizumo{20..40}.md trash
+  816  cd ../
+  817  cd ../
+  818  mv gizumo{20..40}.md trash
+  819  mv ./gizumo{20..40}.md ./trash
+  820  mv ./gizumo{20..40}.md trash
+  821  mv *.gizumo{20..40}.md trash
+  822* mv gizumo{20..40}.md trash
+  823  mv *gizumo{20..40}.md /trash
+  824  mv*gizumo{20..40}.md /trash
+  825  mv * gizumo{20..40}.md /trash
+  826  mv *.gizumo{20..40}.md /trash
+  827  mv */.gizumo{20..40}.md /trash
+  828  ls
+  829  cd server_lesson/
+  830  ls
+  831  ls linux_practice2
+  832  ls
+  833  cd linux_practice2
+  834  ls
+  835  mv */gizumo{20..40} trash
+  836  mv gizumo{20..40} trash
+  837  mv /gizumo{20..40} /trash
+  838  mv gizumo{20..40} /trash
+  839  mv gizumo{20..40} trash
+  840* mv gizumo{20..40} trash
+  841  mv -f gizumo{20..40} trash
+  842  mv gizumo{20..40}.md trash
+  843  mv gizumo20.md trash
+  844  ls
+  845  cd trash
+  846  mv gizumo{20..40}.md trash
+  847  mv gizumo20.md trash
+  848  cd ../
+  849  ls
+  850  cd documents/
+  851  ls
+  852  mv gizumo{20..40}.md ./trash
+  853  mv gizumo{20..40}.md trash
+  854  mv gizumo{20..40}.md linux_practice2/trash
+  855  cd ~/
+  856  mv gizumo{20..40}.md trash
+  857  cd vagrant
+  858  ls
+  859  cd server_lesson/
+  860  ls
+  861  cd linux_practice2
+  862  ls
+  863  mv gizumo{20..40}.md trash
+  864* mv gizumo{20..40}.md trash
+  865  ls
+  866  ls trash
+  867  mv documents/gizumo{20..40}.md trash
+  868  ls trash/
+  869  touch .gitignore
+  870  ls
+  871  ls -la
+  872  vi .gitignore
+  873  vi .gitignore
+  874  history 300
